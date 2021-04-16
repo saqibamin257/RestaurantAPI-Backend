@@ -26,6 +26,9 @@ namespace RestaurantAPI.Model
 
         public List<OrderDetail> OrderDetails { get; set; }
 
+        [NotMapped]
+        public string DeletedOrderItemIds { get; set; }
+
         
     }
 }
